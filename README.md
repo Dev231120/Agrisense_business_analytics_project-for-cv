@@ -46,20 +46,17 @@ Notebook Environment — Google Colab / Jupyter Notebook
 
 Repository Structure-
 agrisense/
-│
-├── agrisense_business_analytics.ipynb   # Main analysis notebook (114 cells)
-│
-├── data/
-│   ├── wholesale_price_data.csv         # Raw wholesale prices by state/date
-│   ├── retail_price_data.csv            # Raw retail prices by state/date
-│   ├── df_time_series.csv               # Enriched time-series (intermediate)
-│   └── df_time_series_final.csv         # Final enriched dataset (Power BI source)
-│
-├── dashboards/
-│   ├── up_rice_business_analysis.pbix              # Dashboard 1: UP Rice Business Analysis
-│   └── AgriSense_Price_Forecasting_Dashboard.pbix  # Dashboard 2: Price Forecasting
-│
-└── README.md
+agrisense_business_analytics.ipynb   # Main analysis notebook (114 cells)
+data
+wholesale_price_data.csv         # Raw wholesale prices by state/date
+retail_price_data.csv            # Raw retail prices by state/date
+df_time_series.csv               # Enriched time-series (intermediate)
+df_time_series_final.csv         # Final enriched dataset (Power BI source)
+
+dashboards/
+up_rice_business_analysis.pbix              # Dashboard 1: UP Rice Business Analysis
+AgriSense_Price_Forecasting_Dashboard.pbix  # Dashboard 2: Price Forecasting
+README.md
 Notebook breakdown — 114 total cells:
 
 109 code cells
